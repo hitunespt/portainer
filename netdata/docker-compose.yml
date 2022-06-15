@@ -2,7 +2,7 @@ version: '3'
 services:
   netdata:
     image: netdata/netdata
-    container_name: netdata
+    container_name: git-netdata
     hostname: dolecek.cm-lisboa.net # set to fqdn of host
     ports:
       - 19999:19999
